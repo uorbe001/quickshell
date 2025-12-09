@@ -53,7 +53,7 @@
     ++ lib.optional withCli caelestia-cli;
 
   fontconfig = makeFontsConf {
-    fontDirectories = [material-symbols rubik nerd-fonts.caskaydia-cove];
+    fontDirectories = [material-symbols rubik];
   };
 
   cmakeBuildType =

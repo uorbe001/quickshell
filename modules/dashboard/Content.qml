@@ -86,13 +86,13 @@ Item {
             RowLayout {
                 id: row
 
-                Pane {
-                    sourceComponent: Dash {
-                        visibilities: root.visibilities
-                        state: root.state
-                        facePicker: root.facePicker
-                    }
-                }
+                // Pane {
+                //     sourceComponent: Dash {
+                //         visibilities: root.visibilities
+                //         state: root.state
+                //         facePicker: root.facePicker
+                //     }
+                // }
 
                 Pane {
                     sourceComponent: Media {
@@ -100,9 +100,9 @@ Item {
                     }
                 }
 
-                Pane {
-                    sourceComponent: Performance {}
-                }
+                // Pane {
+                //     sourceComponent: Performance {}
+                // }
             }
 
             Behavior on contentX {

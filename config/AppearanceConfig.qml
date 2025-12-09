@@ -10,45 +10,45 @@ JsonObject {
 
     component Rounding: JsonObject {
         property real scale: 1
-        property int small: 12 * scale
-        property int normal: 17 * scale
-        property int large: 25 * scale
+        property int small: 9 * scale
+        property int normal: 14 * scale
+        property int large: 22 * scale
         property int full: 1000 * scale
     }
 
     component Spacing: JsonObject {
         property real scale: 1
-        property int small: 7 * scale
-        property int smaller: 10 * scale
-        property int normal: 12 * scale
-        property int larger: 15 * scale
-        property int large: 20 * scale
+        property int small: 4 * scale
+        property int smaller: 6 * scale
+        property int normal: 8 * scale
+        property int larger: 11 * scale
+        property int large: 16 * scale
     }
 
     component Padding: JsonObject {
         property real scale: 1
-        property int small: 5 * scale
-        property int smaller: 7 * scale
-        property int normal: 10 * scale
-        property int larger: 12 * scale
-        property int large: 15 * scale
+        property int small: 2 * scale
+        property int smaller: 4 * scale
+        property int normal: 7 * scale
+        property int larger: 9 * scale
+        property int large: 12 * scale
     }
 
     component FontFamily: JsonObject {
-        property string sans: "Rubik"
-        property string mono: "CaskaydiaCove NF"
+        property string sans: "Liberation Sans"
+        property string mono: "LiberationMono Nerd Font"
         property string material: "Material Symbols Rounded"
         property string clock: "Rubik"
     }
 
     component FontSize: JsonObject {
         property real scale: 1
-        property int small: 11 * scale
-        property int smaller: 12 * scale
-        property int normal: 13 * scale
-        property int larger: 15 * scale
-        property int large: 18 * scale
-        property int extraLarge: 28 * scale
+        property int small: 9 * scale
+        property int smaller: 10 * scale
+        property int normal: 11 * scale
+        property int larger: 13 * scale
+        property int large: 16 * scale
+        property int extraLarge: 25 * scale
     }
 
     component FontStuff: JsonObject {

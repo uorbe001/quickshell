@@ -30,20 +30,20 @@ Item {
 
         onCurrentIndexChanged: root.state.currentTab = currentIndex
 
-        Tab {
-            iconName: "dashboard"
-            text: qsTr("Dashboard")
-        }
-
-        Tab {
-            iconName: "queue_music"
-            text: qsTr("Media")
-        }
-
-        Tab {
-            iconName: "speed"
-            text: qsTr("Performance")
-        }
+        // Tab {
+        //     iconName: "dashboard"
+        //     text: qsTr("Dashboard")
+        // }
+        //
+        // Tab {
+        //     iconName: "queue_music"
+        //     text: qsTr("Media")
+        // }
+        //
+        // Tab {
+        //     iconName: "speed"
+        //     text: qsTr("Performance")
+        // }
 
         // Tab {
         //     iconName: "workspaces"
